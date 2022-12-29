@@ -1,0 +1,20 @@
+@media (max-width:768px){
+    .nav-list{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        font-size: 30px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }   
+}
+@media (max-width:500px){
+    .header-btn{
+        display: none;
+    }
+}
